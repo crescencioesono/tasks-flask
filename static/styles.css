@@ -1,0 +1,132 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.component {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+input[type="text"] {
+    width: 96%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 96%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="password"] {
+    width: 96%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #007bf0;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.register-link {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: #007bf0;
+}
+
+.dashboard {
+    display: flex;
+    background-color: #f0f0f0;
+}
+
+.aside {
+    flex: 30%;
+}
+
+ul {
+    display: inline;
+}
+
+.main {
+    flex: 70%;
+}
+
+.table-container {
+    margin: 20px 0px;
+}
+
+table {
+    width: 96%;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    height: 30px;
+    padding: 5px;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+
+.edit {
+    background-color: #007bf0;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.delete {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+tr:hover {
+    background-color: #6eb3f5;
+    color: #ffff;
+}
